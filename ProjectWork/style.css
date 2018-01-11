@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*background: linear-gradient(#000000,#025035,#161616);*/
+    background: linear-gradient(#130C0C, #352D2D, #8A8585);
+}
+
+#container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    width: 1200px;
+    background: linear-gradient(rgb(19, 11, 11), #4d0707, #000000);
+}
+
+#h1 {
+    width: 900px;
+    float: left;
+    height: 160px;
+}
+
+#h1 h1 {
+    padding: 60px;
+    color: #ffffff;
+    font-size: 50px;
+    float: left;
+}
+
+#h1 h1:hover {
+    color: #ffffff;
+}
+
+#had_img {
+    width: 200px;
+    height: 160px;
+    float: right;
+    padding-right: 25px;
+}
+
+#had_img #header_img {
+    width: 200px;
+    height: 160px;
+}
+
+main {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#left {
+    width: 200px;
+    height: 500px;
+    background: silver;
+    float: left;
+}
+
+#nav {
+    list-style: none;
+    background: linear-gradient(#292727, #020202, #1f1b1b);
+    padding-bottom: 10px;
+}
+
+#nav li {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #FDF8F8;
+    font-size: 20px;
+}
+
+#nav a {
+    text-decoration: none;
+    margin-bottom: 2px;
+}
+
+#nav li:hover {
+    color: rgb(160, 133, 12);
+}
+
+#middel {
+    width: 650px;
+    min-height: 495px;
+    background: #858484;
+    font-size: 15px;
+    float: left;
+}
+
+#main_img {
+    width: 600px;
+    height: 300px;
+    padding: 20px;
+}
+
+#post {
+    width: 610px;
+    padding-left: 20px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+}
+
+#doc_lis_middel {
+    width: 997px;
+    height: 500px;
+    background: #969494;
+    float: left;
+    margin-left: 3px;
+}
+
+#middel_doc_H3_0 {
+    color: #EEE7E7;
+    margin: 0;
+    background: rgb(27, 27, 27);
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 0;
+    font-size: 20px;
+}
+
+#appo_log {
+    width: 997px;
+}
+
+#appoin_form {
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid #5F5B5B;
+    background: rgb(63, 0, 0);
+    font-size: 20px;
+    margin-top: 4px;
+    text-align: center;
+}
+
+#appoin_form a {
+    color: #FFFFFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#appoin_form a:hover {
+    color: yellow;
+}
+
+#appoin_form:hover {
+    background: rgb(29, 0, 0);
+}
+
+#pat_det_inp {
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+#pat_pin {
+    height: 25px;
+    padding-left: 3px;
+    width: 200px;
+}
+
+#pat_sub {
+    height: 29px;
+    width: 60px;
+    background: linear-gradient(#180202, #02030f, #06010c);
+    color: white;
+    font-weight: bold;
+    border: 1px solid #1B0646;
+}
+
+#pat_sub:hover {
+    background: linear-gradient(#000000, #252525, #353535);
+    color: white;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+
+/* Enter patient details css*/
+
+#ent_pt_det {
+    width: 480px;
+    height: 400px;
+    float: left
+}
+
+#apply_for_appointment {
+    padding-top: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+#doc_id {
+    height: 25px;
+    padding-left: 3px;
+    width: 200px;
+}
+
+#pat_id {
+    height: 25px;
+    padding-left: 3px;
+    width: 200px;
+}
+
+#pati_details {
+    height: 150px;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: white;
+    font-size: 15px;
+}
+
+#or {
+    padding-left: 10px;
+    padding-right: 12px;
+    padding-top: 185px;
+    padding-bottom: 150px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sow_pt_det {
+    width: 480px;
+    height: 400px;
+    float: left;
+}
+
+#right {
+    width: 350px;
+    height: 500px;
+    background: #FDFFFD;
+    float: left;
+}
+
+#log_in {
+    padding-top: 25px;
+    text-align: center;
+}
+
+#email {
+    height: 30px;
+    width: 300px;
+    padding-left: 3px;
+}
+
+#passw {
+    height: 30px;
+    width: 300px;
+    padding-left: 3px;
+}
+
+#log_in_user {
+    width: 300px;
+    background: linear-gradient(#444444, #272727, #181818);
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: 0;
+}
+
+#log_in_user:hover {
+    background: linear-gradient(#371212, #5C2020, #2C0404);
+}
+
+#sign_up_but {
+    width: 300px;
+    background: linear-gradient(#444444, #272727, #181818);
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: 0;
+}
+
+#sign_up_but:hover {
+    background: linear-gradient(#371212, #5C2020, #2C0404);
+}
+
+footer {
+    float: left;
+    width: 1200px;
+    height: 65px;
+    background: linear-gradient(#090A09, #5D1314, #001000);
+}
+
+h3 {
+    padding-top: 25px;
+    padding-left: 20px;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    border: 0;
+}
+
+::-webkit-scrollbar-track {
+    width: 0;
+}

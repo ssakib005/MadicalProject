@@ -1,0 +1,197 @@
+#form {
+    margin: 0 auto;
+    padding: 20px;
+    padding-left: 200px;
+}
+
+.data {
+    align-content: center;
+    width: 300px;
+    height: 40px;
+    padding-left: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #ffffff;
+}
+
+.inti {
+    align-content: center;
+    width: 150px;
+    float: left;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 8px;
+    padding-bottom: 10px;
+    background: black;
+    color: wheat;
+}
+
+.inti_signup {
+    width: 157px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    background: rgb(39, 1, 1);
+    color: white;
+    border: 0px;
+    margin: 0px;
+    float: left;
+}
+
+.inti_signup:hover {
+    background: black;
+    color: #A29C9C;
+}
+
+#catagory {
+    margin: 15px;
+    padding-left: 15px;
+}
+
+#_list {
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#appo {
+    width: 997px;
+    height: 45px;
+    background: rgb(29, 28, 28);
+    padding-bottom: 2px;
+}
+
+#apo {
+    width: 400px;
+    padding-top: 3px;
+}
+
+#ap {
+    color: rgb(248, 248, 248);
+    margin: 0;
+    background: rgb(34, 33, 33);
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 7px;
+    margin-right: 20px;
+    border: 0;
+    font-size: 20px;
+    float: left;
+}
+
+#patient {
+    width: 200px;
+    height: 30px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    float: left;
+}
+
+#ap-table {
+    width: 597px;
+    background-color: rgb(27, 27, 27);
+    float: right;
+}
+
+.log {
+    width: 250px;
+    height: 30px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    float: right;
+}
+
+#btn {
+    width: 60px;
+    float: left;
+    font-size: 15px;
+    padding-bottom: 8px;
+    margin-left: 8px;
+    padding-top: 4px;
+    background-color: black;
+    color: white;
+}
+
+#us_nme {
+    float: left;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 470px;
+    padding-right: 10px;
+}
+
+#do_nme {
+    float: right;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 400px;
+    padding-right: 10px;
+}
+
+#doctor-prescription {
+    width: 100%;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+}
+
+#pres-left {
+    margin-top: 2px;
+    width: 550px;
+    height: 410px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+
+#pres-right {
+    margin-top: 2px;
+    width: 447px;
+    height: 410px;
+    background-color: rgb(158, 158, 158);
+    float: right;
+}
+
+#medicine-list medicine {
+    display: block;
+}
+
+#find-button {
+    width: 60px;
+    font-size: 15px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    background-color: black;
+    color: white;
+}
+
+#pati_search_details {
+    height: 150px;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: white;
+    font-size: 15px;
+    margin-top: 60px;
+    margin-right: 20px;
+}
+
+#log-btn {
+    width: 60px;
+    float: right;
+    font-size: 15px;
+    padding-bottom: 8px;
+    padding-top: 4px;
+    background-color: black;
+    color: white;
+}
+
+#dataTable tr th {
+    width: 90px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
